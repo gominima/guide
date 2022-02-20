@@ -1,6 +1,6 @@
 # Requesting more content
 
-Since this guide is made specifically for the Minima community, you want to be sure to provide the most relevant and up-to-date content. We will, of course, make additions to the current pages and add new ones as you see fit, but fulfilling requests is how you know you're providing content you all want the most.
+Since this guide is made specifically for the Minima community, we want to be sure to provide the most relevant and up-to-date content. We will, of course, make additions to the current pages and add new ones as we see fit, but fulfilling requests is how we know we are providing content you all want the most.
 
 Requests may be as simple as "add an example to the [frequently asked questions](/popular-topics/faq.html) page", or as elaborate as "add a page regarding cors". We'll do our best to fulfill all requests, as long as they're reasonable.
 
