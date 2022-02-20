@@ -1,6 +1,6 @@
 # Setting up the formatter
 
-As a developer, it's a good idea to make your development process as streamlined as possible. formatters check syntax and help you produce consistent code that follows specific style rules that you can define yourself or inherit from existing configurations. Although it's not required, installing a formatter will help you immensely.
+As a developer, it's a good idea to make your development process as streamlined as possible. Formatters check syntax and help you produce consistent code that follows specific style rules that you can define yourself or inherit from existing configurations. Although it's not required, using a formatter will help you immensely.
 
 ## Installing a code editor
 
@@ -18,11 +18,11 @@ You can use the following command to format all Go files in your directory at on
 go fmt
 ```
 
-And just like that, now all the Go files in the directory will be formatted. You can also use the `go help fmt` command to learn more about the formatter configuration options.
+You can use the `go help fmt` command to learn more about the formatter configuration options.
 
 ::: tip
 
-If you want to format only a single file or a selection of files you can pass their names with the command.
+If you want to format only a single file or a selection of files you can pass the file names with the command.
 
 ```sh:no-line-numbers
 go fmt main.go submain.go
