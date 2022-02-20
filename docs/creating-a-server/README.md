@@ -10,7 +10,7 @@ server/
 └── go.sum
 ```
 
-Now you can start with making our main file, you can name it whatever you want it but here you are naming it `main.go`.
+Now you can start with making the main file, you can name it whatever you want but we suggest you name it  `main.go`.
 
 ```sh:no-line-numbers
 touch main.go
@@ -34,7 +34,7 @@ func main() {
 }
 ```
 
-Don't worry if you don't understand something, you will explain all of the code in a moment. For now you can save the file.
+Don't worry if you don't understand something, All of it will be explained in a moment. For now you can save the file.
 
 ## Explanation
 
