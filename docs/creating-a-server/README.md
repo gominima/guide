@@ -43,9 +43,9 @@ So you might be wondering what does the code do, Let's take each line and see wh
 - In the first line you declare the package and it's name, you generally won't have to worry much about this line.
 - Then you `import` the Minima library which you installed earlier.
 - Next you declare the main function using the `func` keyword
-- In the following line you make a new instance of minima using the [minima#New()](https://gominima.studio/docs/main/func/New) method and store it in the `app` variable.
+- In the following line you make a new instance of minima using the [`minima#New()`](https://gominima.studio/docs/main/func/New) method and store it in the `app` variable.
 - Then you register a new `GET` route which fires on requests to `/` and assign it a function, which has two params, the request and the response.
-- Then you set the status code of the response to `200` using the [Response#OK()](https://gominima.studio/docs/main/struct/Response?scrollTo=OK) and set the body to 'Hi mom!'.
+- Then you set the status code of the response to `200` using the [`Response#OK()`](https://gominima.studio/docs/main/struct/Response?scrollTo=OK) and set the body to 'Hi mom!'.
 - Finally you listen to the port `3000` on `localhost`.
 
 ## Running the server
@@ -60,3 +60,5 @@ curl localhost:3000
 ```
 
 :::
+
+You should get `Hi mom` as output. If you dont, you should recheck the steps and see if you have done everything correctly.
