@@ -1,7 +1,7 @@
 # Using a logger
 
 ::: tip
-This page is a follow-up and bases its code on [the previous page](/creating-a-server/).
+This page is a follow-up and bases its code on [the previous page](/creating-a-server/route-handling.html).
 :::
 
 You can use a logger to log the requests and response and other debug information to the console. This can be quite handy when you are trying to find an error or just trying to look around and see what's not working.
@@ -10,7 +10,7 @@ You can use a logger to log the requests and response and other debug informatio
 
 First of all, you need to get the Minima middlewares package, most of these have been ported from Go-Chi. The middlewares package itself contains more than just the logger but for now you don't need to worry about it.
 
-```bash:no-line-numbers
+```sh:no-line-numbers
 go get github.com/gominima/middlewares
 ```
 
@@ -24,15 +24,15 @@ In your main file you can add the following sections of code:
 package main;
 
 import (
-    "github.com/gominima/minima"
-    "github.com/gominima/middlewares"
-    "example.com/m/routes"
+	"github.com/gominima/minima"
+	"github.com/gominima/middlewares"
+	"example.com/m/routes"
 )
 
 func main() {
 	app := minima.New()
 	app.UseRouter(routes.Router())
-    app.UseRaw(middlewares.Logger())
+	app.UseRaw(middlewares.Logger())
 	app.Listen(":3000")
 }
 ```

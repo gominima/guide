@@ -10,7 +10,7 @@ First, you need to create a directory for storing all your routes, while you can
 
 Create a directory named `routes` in your root folder (where your main.go is):
 
-```bash:no-line-numbers
+```sh:no-line-numbers
 mkdir routes
 ```
 
@@ -18,7 +18,7 @@ mkdir routes
 
 Before making the first route, you will need a router. Make a new file called `router.go`:
 
-```bash:no-line-numbers
+```sh:no-line-numbers
 touch routes/router.go
 ```
 
@@ -44,7 +44,7 @@ Now you are ready to make your first route and register it in the router. You ca
 
 Make a new file called `random_get.go`:
 
-```bash:no-line-numbers
+```sh:no-line-numbers
 touch routes/random_get.go
 ```
 

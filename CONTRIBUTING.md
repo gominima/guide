@@ -4,7 +4,7 @@
 
 Clone the repo into your desired folder, `cd` into it, and install the dependencies.
 
-```bash
+```sh
 git clone https://github.com/gominima/guide.git
 cd docs
 yarn
@@ -16,7 +16,7 @@ You can use `npm run dev` to open up a local version of the site at http://local
 
 Remember to always lint your edits/additions before making a commit to ensure everything's lined up and consistent with the rest of the guide. We use ESLint and have a package.json script for linting both JS files and JS code blocks inside Markdown files.
 
-```bash
+```sh
 npm run lint
 ```
 

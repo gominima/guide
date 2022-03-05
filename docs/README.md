@@ -27,7 +27,7 @@ footer: MIT Licensed | Copyright © 2020-present Gominima Team
 
 ### As Easy as 1, 2, 3
 
-```bash{2,5-16,19}
+```sh{2,5-16,19}
 # install in your project
 go get github.com/gominima/minima
 

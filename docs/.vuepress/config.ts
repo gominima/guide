@@ -68,6 +68,12 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
             '/creating-a-server/route-handling.md',
             '/creating-a-server/using-a-logger.md'
           ]
+        },
+        {
+          text: 'Popular Topics',
+          children: [
+            '/popular-topics/cors.md'
+          ]
         }
       ]
     },
