@@ -1,4 +1,4 @@
-# Creating routes
+# Route handling
 
 ::: tip
 This page is a follow-up and bases its code on [the previous page](/creating-a-server/).

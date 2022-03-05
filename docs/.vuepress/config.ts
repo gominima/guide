@@ -65,7 +65,8 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
           text: 'Creating a server',
           children: [
             '/creating-a-server/',
-            '/creating-a-server/creating-routes.md'
+            '/creating-a-server/route-handling.md',
+            '/creating-a-server/using-a-logger.md'
           ]
         }
       ]
