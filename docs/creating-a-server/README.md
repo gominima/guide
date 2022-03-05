@@ -36,7 +36,7 @@ func main() {
 
 Don't worry if you don't understand something, All of it will be explained in a moment. For now you can save the file.
 
-## Explanation
+### Explanation
 
 So you might be wondering what does the code do, Let's take each line and see what it does:
 

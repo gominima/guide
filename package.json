@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",
-    "dev:docker": "DOCKER=TRUE vuepress dev docs",
+    "dev docker": "DOCKER=TRUE vuepress dev docs",
     "build": "vuepress build docs"
   },
   "devDependencies": {

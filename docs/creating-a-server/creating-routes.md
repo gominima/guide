@@ -14,6 +14,8 @@ Create a directory named `routes` in your root folder (where your main.go is):
 mkdir routes
 ```
 
+## Making a router file
+
 Before making the first route, you will need a router. Make a new file called `router.go`:
 
 ```bash:no-line-numbers
@@ -37,6 +39,8 @@ func Router() *minima.Router {
 Here, you first make a sub-package called `routes` (this is different from the main package), Next you import the minima library and make the Router function which uses the [`minima#NewRouter()`](https://gominima.studio/docs/minima/main/func/NewRouter) method and return this router.
 
 Now you are ready to make your first route and register it in the router. You can return any sort of data from this section depending on your use case but here you will be sending a simple random number.
+
+## Route files
 
 Make a new file called `random_get.go`:
 
