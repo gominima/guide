@@ -5,7 +5,7 @@
 To use Minima, you'll need to install [Go](https://go.dev/doc/install). Minima v1 requires Go 1.17 or higher.
 
 ::: tip
-To check if you already have Node installed on your machine \(e.g., if you're using a VPS\), run `go version` in your terminal. If it outputs `go1.17` or higher, then you're good to go! Otherwise, continue reading.
+To check if you already have Go installed on your machine \(e.g., if you're using a VPS\), run `go version` in your terminal. If it outputs `go1.17` or higher, then you're good to go! Otherwise, continue reading.
 :::
 
 On Windows, it's as simple as installing any other program. Download the latest version from [the Go website](https://go.dev/learn/), open the downloaded file, and follow the steps from the installer.
@@ -50,14 +50,9 @@ go mod init example.com/m
 
 This is the next command you'll be running. This command creates a `go.mod` file for you, which will keep track of the dependencies your project uses, as well as other info.
 
-::: tip
-
-If you have a GitHub account you can use it here instead of `example.com/m`.
-
 ```sh:no-line-numbers
 go mod init github.com/USERNAME/REPOSITORY
 ```
-:::
 
 Once you're done with that, you're ready to install Minima!
 
@@ -73,4 +68,4 @@ And that's it! With all the necessities installed, you're almost ready to start 
 
 ## Using a formatter
 
-While you are coding, it's possible to run into numerous syntax errors or code in an inconsistent style. You should [use a formatter](/preparations/setting-up-a-formatter.md) to ease these troubles. While code editors generally can point out syntax errors, formatters coerce your code into a specific style as defined by the configuration. While this is not required, it is advised.
+While you are coding, it's possible to run into numerous syntax errors or code in an inconsistent style. You should [use a formatter](/preparations/setting-up-a-formatter) to ease these troubles. While code editors generally can point out syntax errors, formatters coerce your code into a specific style as defined by the configuration. While this is not required, it is advised.
