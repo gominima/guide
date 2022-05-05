@@ -50,9 +50,14 @@ go mod init example.com/m
 
 This is the next command you'll be running. This command creates a `go.mod` file for you, which will keep track of the dependencies your project uses, as well as other info.
 
+::: tip
+
+If you have a GitHub account you can use it here instead of `example.com/m`.
+
 ```sh:no-line-numbers
 go mod init github.com/USERNAME/REPOSITORY
 ```
+:::
 
 Once you're done with that, you're ready to install Minima!
 
