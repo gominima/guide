@@ -7,7 +7,7 @@ actions:
     link: /introduction/getting-started.html
     type: primary
   - text: Installation
-    link: /preparation/
+    link: /preparations/
     type: secondary
 features:
   - title: Simple Setup
